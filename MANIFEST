@@ -1,0 +1,4 @@
+.hgignore
+META.yml
+Makefile.PL
+lib/Nginx/Engine/Cookies/Resolver.pm
