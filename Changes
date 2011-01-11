@@ -1,0 +1,5 @@
+Revision history for Perl extension Nginx::Engine::Cookies::Resolver.
+
+0.02  Sat Jan  8 18:19:45 2011 GMT
+	- added example from Nginx::Engine distribution;
+

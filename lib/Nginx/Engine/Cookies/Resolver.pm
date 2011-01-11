@@ -4,7 +4,7 @@ use bytes;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Nginx::Engine;
 use Net::DNS;
@@ -239,7 +239,7 @@ Nginx::Engine doesn't have built-in resolver just yet.
 
 =head1 DEPENDENCIES
 
-L<Nginx::ENGINE>, L<Net::DNS>
+L<Nginx::Engine>, L<Net::DNS>
 
 =head1 EXPORT
 
@@ -249,7 +249,7 @@ The following functions are exported by default:
 
 =head1 FUNCTIONS
 
-=head1 ngxk_resolve(DOMAIN, CALLBACK, ...)
+=head2 ngxk_resolve(DOMAIN, CALLBACK, ...)
 
 Resolves I<DOMAIN> and calls back with the results. Can take any number
 of extra arguments after I<CALLBACK>.

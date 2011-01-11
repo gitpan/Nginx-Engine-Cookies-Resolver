@@ -6,7 +6,7 @@ WriteMakefile(
     VERSION_FROM      => 'lib/Nginx/Engine/Cookies/Resolver.pm', 
     PREREQ_PM         => {
         'Net::DNS' => 0,
-        'Nginx::Engine' => 0.04,
+        'Nginx::Engine' => 0.05,
     },
 
     ($] >= 5.005 ?  

@@ -20,3 +20,4 @@ nginx/html/50x.html$
 nginx/html/index.html$
 nginx/src/http/modules/perl/nginx.pm$
 ^save.sh$
+^upver.pl$

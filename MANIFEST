@@ -1,4 +1,8 @@
 .hgignore
+.hgtags
+Changes
 META.yml
 Makefile.PL
+examples/resolv.pl
 lib/Nginx/Engine/Cookies/Resolver.pm
+t/00-use.t
